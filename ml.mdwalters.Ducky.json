@@ -1,8 +1,8 @@
 {
     "app-id": "ml.mdwalters.Ducky",
-    "runtime": "org.freedesktop.Platform",
-    "runtime-version": "1.6",
-    "sdk": "org.freedesktop.Sdk",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "42",
+    "sdk": "org.gnome.Sdk",
     "command": "runner.sh",
     "modules": [
         {
