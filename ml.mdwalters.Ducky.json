@@ -3,18 +3,23 @@
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "1.6",
     "sdk": "org.freedesktop.Sdk",
-    "command": "ducky.py",
+    "command": "runner.sh",
     "modules": [
         {
             "name": "Ducky",
             "buildsystem": "simple",
             "build-commands": [
-                "install -D ducky.py /app/bin/ducky.py"
+                "install -D runner.sh /app/bin/runner.sh",
+                "install -D ducky.py /app/ducky.py"
             ],
             "sources": [
                 {
                     "type": "file",
                     "path": "ducky.py"
+                },
+                {
+                    "type": "file",
+                    "path": "runner.sh"
                 }
             ]
         },
